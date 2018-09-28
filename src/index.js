@@ -20,8 +20,8 @@ module.exports = function solveEquation(equation) {
     var x2 = e2 / (2 * a);
     var x3 = x1 * (-1);
     var x4 = x2 * (-1);
-    var x = Math.floor(x3 * 100) / 100;
-    var y = Math.floor(x4 * 100) / 100;
+    var x = Math.round(x3);
+    var y = Math.round(x4);
 
 
     if (x > y) {
